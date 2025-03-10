@@ -2,14 +2,14 @@ import React from "react";
 
 const apps = [
   {
-    title: "আমাদের ব্যবহারকারী অ্যাপ",
+    title: "আমাদের কাস্টমার অ্যাপ",
     image: "https://i.ibb.co.com/HD88X9Pb/image.png",
     appStore: null,
     playStore: "#",
   },
   {
-    title: "আমাদের ড্রাইভার অ্যাপ",
-    image: "https://i.ibb.co.com/HD88X9Pb/image.png",
+    title: "আমাদের পার্টনার অ্যাপ",
+    image: "https://i.ibb.co.com/qFrMtmvj/Tokhon-Partner.png",
     appStore: null,
     playStore: "#",
   },

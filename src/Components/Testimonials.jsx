@@ -1,17 +1,24 @@
 export default function Testimonials() {
     const testimonials = [
       {
-        name: "নাজ সরকার",
+        name: "মোঃ রিপন",
         image: "https://i.ibb.co.com/4RcnqCh/profile.png", // Replace with actual image URL
         feedback:
-          "তাদের প্রফেশনালিজম এবং সেবার মান সত্যিই প্রশংসনীয়। আমি খুবই সন্তুষ্ট। নিশ্চিন্তে তাদের সার্ভিস নিতে পারেন।",
+          "আমার ব্যবসার সম্প্রসারণে এটি সত্যিই সহায়ক ভূমিকা পালন করছে। বিস্ময়কর এবং সহজেই ব্যবহারযোগ্য সিস্টেম। ধন্যবাদ!",
       },
       {
-        name: "জয় চৌধুরী",
+        name: "অনিমেষ",
         designation: "সহপ্রতিষ্ঠাতা, কোড-বেলা লিমিটেড",
         image: "https://i.ibb.co.com/4RcnqCh/profile.png", // Replace with actual image URL
         feedback:
-          "আমাদেরই দেশে বাড়ি বুক করতে পেরেছি নির্দিষ্ট সময়ের মধ্যেই গাড়ি চলে আসে।",
+          "সাম্প্রতিককালে, এটি আমার ব্যবসার বিপণনে গুরুত্বপূর্ণ ভূমিকা রেখেছে। বিস্ময়কর সাপোর্ট দলটি সহায়তা প্রদান করে।",
+      },
+      {
+        name: "ফরিদ হোসেন",
+        designation: "মার্কেট ম্যানেজার, বাড়িভাড়া এক্স বাংলাদেশ",
+        image: "https://i.ibb.co.com/4RcnqCh/profile.png", // Replace with actual image URL
+        feedback:
+          "আমার ব্যবসার বিপণনে এটি সত্যিই সহায়ক। বিস্ময়কর এবং সহজেই ব্যবহারযোগ্য সিস্টেম।",
       },
       {
         name: "ফাহিম",
@@ -24,9 +31,9 @@ export default function Testimonials() {
   
     return (
       <div className="bg-gray-100 py-12 px-4 text-center">
-        <h2 className="text-2xl font-bold text-gray-800">গ্রাহকের অভিজ্ঞতা</h2>
-        <p className="text-gray-600 mb-8">আমরা সর্বদাই আমাদের গ্রাহকের বাড়ি ভাড়ার অভিজ্ঞতা জানতে আগ্রহী</p>
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <h2 className="text-2xl font-bold text-gray-800">গ্রাহকের পর্যলোচনা</h2>
+        <p className="text-gray-600 mb-8">সামগ্রিকভাবে, গ্রাহকের পর্যলোচনা এমন একটি মাধ্যম যেখানে গ্রাহক তাদের অভিজ্ঞতা এবং মনোভাব শেয়ার করেন</p>
+        <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}

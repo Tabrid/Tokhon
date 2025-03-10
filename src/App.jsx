@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="">
       <Banner />
-      <div >
-        <DeliverySection />
+      <div>
+        <VehicleSelection />
       </div>
-      <VehicleSelection />
+      <DeliverySection />
       <AppSection />
       <Testimonials />
       <Footer />

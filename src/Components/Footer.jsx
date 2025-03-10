@@ -52,14 +52,14 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="mt-10 text-center border-t pt-5 flex justify-between">
-                <div>
+            <div className="mt-10 text-center border-t pt-5 flex flex-col md:flex-row lg:flex-row justify-between">
+                <div className="flex flex-col items-center">
                     <img
                         className="h-12"
-                        src="https://i.ibb.co.com/SGGmysh/truck-lagbe-dark-svg.png"
+                        src="https://i.ibb.co.com/tTcSCpWX/Group-2-2.png"
                         alt="logo"
                     />
-                    <p className="text-gray-600">কপিরাইট © TOKHON লিমিটেড | সর্বস্বত্ব সংরক্ষিত</p>
+                    <p className="text-gray-600">কপিরাইট © Tokhon.com | 2025</p>
                 </div>
 
                 {/* Download Section */}
