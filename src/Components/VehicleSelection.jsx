@@ -2,7 +2,7 @@ import React from "react";
 
 const vehicles = [
   { name: "অ্যাম্বুলেন্স", image: "https://i.ibb.co.com/23WNnfXh/Ambulance.png" },
-  { name: "কার", image: "https://i.ibb.co.com/0Rz3sdFX/image.png" },
+  { name: "কার", image: "Car web transparent.png" },
   { name: "কভার ভ্যান", image: "https://i.ibb.co.com/pBMVw3h2/image.png" },
   { name: "ট্রাক", image: "https://i.ibb.co.com/B2tTtxrw/image.png" },
   { name: "পিক আপ", image: "https://i.ibb.co.com/1tVVtQzM/truck-rental-company-in-dhaka1670918235-removebg-preview.png" },

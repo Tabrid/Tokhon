@@ -45,7 +45,7 @@ const DeliverySection = () => {
                 {/* Center Image */}
                 <div className="md:w-1/3 lg:w-1/3 w-full flex justify-center items-center bg-[#d90166]/20 p-7 rounded-4xl">
                     <img
-                        src="https://i.ibb.co.com/FL9L6KQf/Mobile-screen.png"
+                        src="App web transparent.png"
                         alt="App Preview"
                         className="rounded-lg shadow-lg h-[350px]"
                     />

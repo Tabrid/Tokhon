@@ -3,15 +3,15 @@ import React from "react";
 const apps = [
   {
     title: "আমাদের কাস্টমার অ্যাপ",
-    image: "https://i.ibb.co.com/HD88X9Pb/image.png",
+    image: "Tokhon.png",
     appStore: null,
-    playStore: "#",
+    playStore: "https://play.google.com/store/apps/details?id=com.goridelagbeapp.customer",
   },
   {
     title: "আমাদের পার্টনার অ্যাপ",
     image: "https://i.ibb.co.com/qFrMtmvj/Tokhon-Partner.png",
     appStore: null,
-    playStore: "#",
+    playStore: "https://play.google.com/store/apps/details?id=com.gorideapp.driver",
   },
 ];
 
